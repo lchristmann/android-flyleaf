@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/categoryTitleEditText"
+            android:layout_width="match_parent"
+            android:textSize="18sp"
+            android:fontFamily="@font/montserrat"
+            android:layout_height="50dp"
+            android:maxLength="25"
+            android:imeOptions="actionDone"
+            android:inputType="textAutoComplete" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</FrameLayout>

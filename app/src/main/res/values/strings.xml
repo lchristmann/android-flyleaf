@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Flyleaf</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="header_decoration">header_decoration</string>
+    <string name="my_books_title">my books</string>
+    <string name="to_read_title">to read</string>
+    <string name="to_buy_title">to buy</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="add_category">add category</string>
+    <string name="book_title_hint">title</string>
+    <string name="book_author_hint">author</string>
+</resources>

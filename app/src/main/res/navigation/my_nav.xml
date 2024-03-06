@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/to_read_fragment">
+
+    <fragment
+        android:id="@+id/my_books_fragment"
+        android:name="com.leanderchristmann.flyleaf.fragments.my_books_fragment"
+        android:label="My books"
+        tools:layout="@layout/fragment_my_books_fragment" />
+    <fragment
+        android:id="@+id/to_read_fragment"
+        android:name="com.leanderchristmann.flyleaf.fragments.to_read_fragment"
+        android:label="To read"
+        tools:layout="@layout/fragment_to_read_fragment" />
+    <fragment
+        android:id="@+id/to_buy_fragment"
+        android:name="com.leanderchristmann.flyleaf.fragments.to_buy_fragment"
+        android:label="To buy"
+        tools:layout="@layout/fragment_to_buy_fragment" />
+</navigation>

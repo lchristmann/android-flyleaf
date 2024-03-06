@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+        <EditText
+            android:id="@+id/bookTitleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/montserrat"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:backgroundTint="@color/illuminating_emerald"
+            android:textCursorDrawable="@color/illuminating_emerald"
+            android:hint="@string/book_title_hint"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/bookAuthorEditText"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/montserrat"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:backgroundTint="@color/illuminating_emerald"
+            android:textCursorDrawable="@color/illuminating_emerald"
+            android:hint="@string/book_author_hint"/>
+
+</LinearLayout>
